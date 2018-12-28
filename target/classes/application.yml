@@ -1,0 +1,29 @@
+elasticsearch:
+  defaultCluster: subes6
+  pool:
+    - clusterName: zym
+      nodes:
+        - name: dev01
+          ip: 10.3.1.1
+          port: 9200
+        - name: dev02
+          ip: 10.3.1.2
+          port: 9200
+    - clusterName: subes6
+      nodes:
+        - name: node-2
+          ip: 10.3.1.102
+          port: 19200
+        - name: node-11
+          ip: 10.3.1.103
+          port: 19200
+  minIdlePerKey: 10
+  maxIdlePerKey: 100
+  maxTotalPerKey: 200
+  maxTotal: 500
+  testOnBorrow: false
+  testWhileIdle: true
+  testOnCreate: true
+  testOnReturn: false
+  maxWaitMillis: 10000
+

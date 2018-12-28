@@ -1,0 +1,141 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch",
+      "type": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.block-when-exhausted",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.default-cluster",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.eviction-policy",
+      "type": "org.apache.commons.pool2.impl.EvictionPolicy<T>"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.eviction-policy-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.evictor-shutdown-timeout-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.fairness",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.jmx-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.jmx-name-base",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.jmx-name-prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.lifo",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": 0,
+      "name": "elasticsearch.max-idle-per-key",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": 0,
+      "name": "elasticsearch.max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": 0,
+      "name": "elasticsearch.max-total-per-key",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": 0,
+      "name": "elasticsearch.max-wait-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.min-evictable-idle-time-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": 0,
+      "name": "elasticsearch.min-idle-per-key",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.num-tests-per-eviction-run",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.pool",
+      "type": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig$ElasticSearchClusterConfig[]"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.soft-min-evictable-idle-time-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": false,
+      "name": "elasticsearch.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": false,
+      "name": "elasticsearch.test-on-create",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": false,
+      "name": "elasticsearch.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "defaultValue": false,
+      "name": "elasticsearch.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.guttv.datasource.elasticsearch.pool.config.ElasticSearchPoolConfig",
+      "name": "elasticsearch.time-between-eviction-runs-millis",
+      "type": "java.lang.Long"
+    }
+  ]
+}
